@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Destinations Wish List</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+
+    <link href="styles.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Vacation Destinations Wish List</h1>
+        <p>
+            Find exciting places to visit on your next vacation ? Use the form below to add them to your wish list.
+        </p> 
+    </header>
+    <main>
+        <form id="destination_details_form">
+            <label for="name">Destination Name</label>
+            <input type="text" id="name" placeholder="Provide a name for the Destination" required>
+
+            <label for="location">Destination Location</label>
+            <input type="text" id="location" placeholder="Where is this Destination Located" required>
+
+            <label for="photo">Photo</label>
+            <input type="url" id="photo" placeholder="Provide a url for a photo">
+
+            <label for="discription">Destination Discription</label>
+            <textarea id="discription" placeholder="Describe the destination" ></textarea>
+            
+            <button type="submit">Add to List</button>
+        </form>
+        <article>
+            <h2 id="title">Enter Destination Details</h2>
+            <div id="destination_container">
+                <!-- Content genetrated by js -->
+            </div>
+        </article>
+    </main>
+
+    <footer id = "footer">
+        <div>
+            <p>@Vacationdestinationwishlist</p>
+        </div>
+        <div>
+            <p>About / Blog / Contact Us</p>
+        </div>
+    </footer>
+    
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
